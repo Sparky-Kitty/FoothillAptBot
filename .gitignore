@@ -29,6 +29,7 @@ dist-docs/
 tsconfig.tsbuildinfo
 coverage/
 out/
+config.json
 
 # yarn
 .pnp.*
@@ -42,3 +43,4 @@ out/
 # Cache
 .prettiercache
 .eslintcache
+.eslintrc*

@@ -1,0 +1,29 @@
+{
+  "name": "foothillaptbot",
+  "version": "1.0.0",
+  "description": "General purpose bot for our Discord server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sparky-Kitty/FoothillAptbot.git"
+  },
+  "author": "Dennis Long",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sparky-Kitty/FoothillAptbot/issues"
+  },
+  "homepage": "https://github.com/Sparky-Kitty/FoothillAptbot#readme",
+  "dependencies": {
+    "discord.js": "^14.8.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.41",
+    "pm2": "^5.2.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  }
+}
