@@ -17,11 +17,16 @@
   },
   "homepage": "https://github.com/Sparky-Kitty/FoothillAptbot#readme",
   "dependencies": {
+    "@napi-rs/canvas": "^0.1.41",
+    "canvas": "^2.11.2",
     "discord.js": "^14.8.0",
+    "luxon": "^3.3.0",
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.41",
-    "pm2": "^5.2.2",
-    "request": "^2.88.2"
+    "pm2": "^5.3.0",
+    "request": "^2.88.2",
+    "sequelize": "^6.30.0",
+    "sqlite3": "^5.1.6"
   },
   "devDependencies": {
     "eslint": "^8.36.0"

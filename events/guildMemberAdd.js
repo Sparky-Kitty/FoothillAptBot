@@ -22,7 +22,7 @@ module.exports = {
 				)
 				.setFooter({ text: `Member ID : ${member.id}` })
 				.setTimestamp();
-			greetChannel.send({ content: `<@${member.id}>`, embeds: [greetEmbed] });
+			// greetChannel.send({ content: `<@${member.id}>`, embeds: [greetEmbed] });
 			return console.log('Success to GuildMemberAdd');
 		}
 		else {
